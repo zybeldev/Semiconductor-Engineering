@@ -433,6 +433,8 @@ A typical sequence is:
 
 With **positive resist**, exposed areas are removed during development. With **negative resist**, exposed areas remain.
 
+![Photolithography and etching with positive and negative photoresist](images/photolithography-etching.png)
+
 The patterned resist guides operations such as etching and selective ion implantation. Some methods also use it for selective plating or other processing. Exposure changes resist chemistry; development creates the openings; subsequent processing acts through those openings.
 
 **Overlay** describes alignment between successive patterns. Exposure systems may use **deep ultraviolet (DUV)** or **extreme ultraviolet (EUV)** light; not every chip or layer requires EUV.
