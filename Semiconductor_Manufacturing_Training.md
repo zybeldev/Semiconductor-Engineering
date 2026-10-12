@@ -374,15 +374,15 @@ For example, fabs in the Phoenix metropolitan area include **TSMC’s Fab 21 in 
 
 **Fab video:** [Intel Arizona factory tour](https://www.youtube.com/watch?v=IUIh0fOUcrQ).
 
-**Fab video:** [TSMC Fab Tour](https://www.youtube.com/watch?v=divOKxuYklM).
-
 ### 5.1 Circuit Fabrication Sequence
 
 **Circuit Fabrication Process — Front-End Manufacturing**
 
-Prepared wafer → Device formation → Contacts → Metal interconnections → Protective layers and connection pads → Fabricated wafer
+Prepared wafer → Surface preparation and cleaning → Material growth or deposition → Photoresist coating and baking → Alignment and exposure → Development → Etching or ion implantation → Resist stripping and cleaning → Annealing and/or CMP where required → Inspection and metrology → Repeated processing to form devices, contacts, metal wiring levels, and vias → Protective layers and connection pads → Fabricated wafer
 
-Within these stages, the operations below are repeated according to the structure being built. This sequence describes the major construction stages; individual process routes vary with the technology.
+Within these stages, operations are repeated according to the structure being built. This chain illustrates how the operations connect; individual process routes and the order of operations vary with the technology.
+
+**Fab video — Manufacturing Process:** [TSMC Fab Tour](https://www.youtube.com/watch?v=divOKxuYklM).
 
 ### 5.2 Oxidation and Deposition — Add Material
 
