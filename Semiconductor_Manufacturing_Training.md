@@ -428,7 +428,7 @@ Reference: [ASML — Six Crucial Steps in Semiconductor Manufacturing](https://w
 
 **Video:** [Photolithography — Duke University — SMIF](https://www.youtube.com/watch?v=udXHWVejDj0).
 
-**Video:** [How are Billions of Nanoscopic Transistors Made into a Microchip? — EUV Photolithography — ASML](https://www.youtube.com/watch?v=B2482h_TNwg&t=1350s).
+**Video:** [How are Billions of Nanoscopic Transistors Made into a Microchip? — EUV Photolithography — ASML](https://www.youtube.com/watch?v=B2482h_TNwg).
 
 ### 5.4 Etching — Remove Material
 
