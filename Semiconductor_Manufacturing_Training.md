@@ -720,114 +720,114 @@ Manufacturers may offer general industrial versions and versions suited to semic
 
 Pneumatic components use compressed air for actuation, clamping, gripping, and equipment movement.
 
-| Category | Function |
-|---|---|
-| Cylinders and pneumatic actuators | Produce linear or rotary movement |
-| Directional control valves | Direct airflow to start, stop, or change actuator movement |
-| Pressure regulators | Reduce and maintain downstream pressure |
-| Other pressure-control valves | Limit pressure or control pressure-dependent operation |
-| Flow-control valves | Adjust airflow and actuator speed |
-| Solenoid-operated valves and manifolds | Electrically control airflow and organize valve functions |
-| Filters and air preparation units | Remove contaminants and condition the air supply |
-| Tubing and fittings | Carry air and connect components |
-| Pressure sensors and switches | Measure pressure or detect thresholds |
-| Vacuum generators and suction cups | Provide suction for suitable handling applications |
+| Category |
+| --- |
+| Cylinders and pneumatic actuators |
+| Directional control valves |
+| Pressure regulators |
+| Other pressure-control valves |
+| Flow-control valves |
+| Solenoid-operated valves and manifolds |
+| Filters and air preparation units |
+| Tubing and fittings |
+| Pressure sensors and switches |
+| Vacuum generators and suction cups |
 
 Pneumatic air circuits operate mechanisms. Process-gas circuits supply manufacturing gases and require components selected for those gases and their purity requirements.
 
 ### 9.2 Motion and Mechanical Components
 
-| Category | Function |
-|---|---|
-| Motors and servo motors | Produce controlled movement |
-| Motor drives | Control speed, torque, and motor operation |
-| Linear guides and bearings | Support loads and guide movement |
-| Ball screws and linear actuators | Produce controlled linear motion |
-| Gearboxes and couplings | Transmit motion and torque |
-| Encoders | Measure position or movement |
-| Brakes | Hold or help stop mechanisms |
-| Cable carriers | Protect and guide moving cables and hoses |
+| Category |
+| --- |
+| Motors and servo motors |
+| Motor drives |
+| Linear guides and bearings |
+| Ball screws and linear actuators |
+| Gearboxes and couplings |
+| Encoders |
+| Brakes |
+| Cable carriers |
 
 Applications include wafer transfer, inspection stages, dispensing heads, and package handling. Required precision and cleanliness vary by application.
 
 ### 9.3 Clamping, Locating, and Gripping Components
 
-| Category | Function |
-|---|---|
-| Clamps and workholding devices | Secure fixtures, parts, or assemblies |
-| Locating pins and mechanisms | Establish repeatable position |
-| Grippers and chucks | Hold objects during movement or operation |
-| Work supports | Support parts and limit deflection |
-| Tool changers and quick-connect mechanisms | Exchange handling tools or fixtures |
+| Category |
+| --- |
+| Clamps and workholding devices |
+| Locating pins and mechanisms |
+| Grippers and chucks |
+| Work supports |
+| Tool changers and quick-connect mechanisms |
 
 Holding an equipment fixture and handling a wafer directly impose different requirements.
 
 ### 9.4 Fluid-Control Components
 
-| Category | Function |
-|---|---|
-| Pumps | Move liquids |
-| Valves | Start, stop, direct, or regulate flow |
-| Regulators and relief valves | Control pressure and protect against excessive pressure |
-| Flow meters and controllers | Measure or regulate flow |
-| Filters | Remove selected contaminants |
-| Tubing, hoses, piping, and fittings | Carry fluids |
-| Seals and gaskets | Limit leakage |
-| Level sensors | Monitor reservoirs and tanks |
+| Category |
+| --- |
+| Pumps |
+| Valves |
+| Regulators and relief valves |
+| Flow meters and controllers |
+| Filters |
+| Tubing, hoses, piping, and fittings |
+| Seals and gaskets |
+| Level sensors |
 
 Components must suit cooling water, cleaning chemicals, slurry, or other fluids present.
 
 ### 9.5 Vacuum Components
 
-| Category | Function |
-|---|---|
-| Vacuum pumps | Remove gas |
-| Vacuum valves | Isolate sections or control gas movement |
-| Vacuum gauges | Measure pressure |
-| Pressure-control valves | Maintain required chamber pressure |
-| Flanges, seals, and fittings | Join components while limiting leakage |
-| Traps and filters | Manage selected contaminants |
+| Category |
+| --- |
+| Vacuum pumps |
+| Vacuum valves |
+| Vacuum gauges |
+| Pressure-control valves |
+| Flanges, seals, and fittings |
+| Traps and filters |
 
 Vacuum applications may require low **outgassing**, the release of gas from materials, as well as suitable lubricants, materials, and seals.
 
 ### 9.6 Sensors and Instrumentation
 
-| Category | Function |
-|---|---|
-| Pressure, temperature, and flow sensors | Measure operating conditions |
-| Position and proximity sensors | Detect position or object presence |
-| Force and load sensors | Measure applied forces |
-| Level sensors | Detect or measure liquid levels |
-| Cameras and machine vision | Check presence, position, orientation, or visible conditions |
-| Identification readers | Read carrier, wafer, or component identifiers |
+| Category |
+| --- |
+| Pressure, temperature, and flow sensors |
+| Position and proximity sensors |
+| Force and load sensors |
+| Level sensors |
+| Cameras and machine vision |
+| Identification readers |
 
 Measurements provide feedback for regulation, fault detection, and operation checks.
 
 ### 9.7 Electrical Power and Automation Components
 
-| Category | Function |
-|---|---|
-| Power supplies | Supply required electrical power |
-| Circuit breakers and fuses | Protect circuits |
-| Contactors and relays | Switch loads and signals |
-| Programmable logic controllers (PLCs) and industrial controllers | Execute control logic |
-| Industrial computers | Support software, data processing, and interfaces |
-| Input/output modules | Connect controllers with sensors and actuators |
-| Communication devices | Exchange data |
-| Connectors, cables, and terminals | Establish electrical connections |
-| Safety controllers and interlocks | Monitor conditions and control permitted operation |
+| Category |
+| --- |
+| Power supplies |
+| Circuit breakers and fuses |
+| Contactors and relays |
+| Programmable logic controllers (PLCs) and industrial controllers |
+| Industrial computers |
+| Input/output modules |
+| Communication devices |
+| Connectors, cables, and terminals |
+| Safety controllers and interlocks |
 
 ### 9.8 Heating and Cooling Components
 
-| Category | Function |
-|---|---|
-| Heaters | Supply heat |
-| Temperature controllers | Regulate temperature using feedback |
-| Chillers | Supply temperature-controlled cooling fluid |
-| Heat exchangers | Transfer heat |
-| Cooling pumps and valves | Circulate and regulate cooling fluid |
-| Fans and blowers | Move air for suitable applications |
-| Thermal insulation | Reduce unwanted heat transfer |
+| Category |
+| --- |
+| Heaters |
+| Temperature controllers |
+| Chillers |
+| Heat exchangers |
+| Cooling pumps and valves |
+| Fans and blowers |
+| Thermal insulation |
 
 ### 9.9 Selecting Components for the Application
 
