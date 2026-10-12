@@ -189,13 +189,7 @@ Qualified wafers are packaged for protected transport. The output is a **prepare
 
 Silicon is the main material covered in this chapter, but other semiconductor materials are used or developed for demanding applications. Material selection can address high operating temperatures, high voltages, and heat removal, as well as other electrical requirements.
 
-**Silicon carbide (SiC)** is an established wafer material for power semiconductor devices. Its material properties support high-voltage and high-temperature applications, including power conversion in automotive and industrial equipment.
-
-**Diamond** is being developed as a semiconductor wafer material for demanding power applications. Its high thermal conductivity helps carry heat away, while its ability to withstand strong electric fields offers potential for high-voltage devices. Diamond-based semiconductor devices and wafer manufacturing remain areas of research and development; they are less mature than silicon and silicon carbide technologies.
-
-Using diamond as the semiconductor material is different from using it as a heat spreader beneath a device made from another semiconductor. A **heat spreader** transfers heat away from the device without necessarily forming part of its active electronic structure.
-
-Different wafer materials require their own crystal-growth, finishing, and device-processing methods. The silicon manufacturing sequence described above should not be assumed to apply unchanged to them.
+**Silicon carbide (SiC)** is an established wafer material for power semiconductor devices. Its material properties support high-voltage and high-temperature operation in demanding applications, including automotive, aerospace, military, and industrial systems.
 
 **Wafer manufacturing video:** [Watch on YouTube](https://www.youtube.com/watch?v=jnnXZa_hWq4).
 
@@ -273,6 +267,8 @@ Insulation therefore forms part of the functional structure, alongside semicondu
 A **die** is an individual semiconductor chip. Before dicing, it occupies a defined area of the wafer; after dicing, it is the separated piece containing the fabricated devices and their interconnections. **Dicing** separates the wafer into individual dies.
 
 A wafer normally contains a repeating pattern of die areas, each containing a copy of the same integrated circuit design. Each area contains a complete integrated circuit—for example, a processor, memory chip, or controller—made up of interconnected electronic devices organized into smaller circuits and functional blocks. Depending on its design, the integrated circuit can contain millions or billions of transistors connected to form those circuits and functional blocks.
+
+![Wafer and dies](images/wafer-dies.png)
 
 The wafer allows many dies to undergo manufacturing operations together. Each die contains the devices and interconnections required for its intended function.
 
