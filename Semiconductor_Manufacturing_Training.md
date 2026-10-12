@@ -12,7 +12,7 @@ A **substrate** is the base material in and on which electronic devices and thei
 
 **Silicon wafer manufacturing** produces this substrate in the form of a **wafer—a thin disc of silicon** that is finished, polished, cleaned, and inspected.
 
-**Semiconductor device manufacturing** produces integrated circuits, such as processors, memory chips, and controllers. It starts with a silicon wafer, forms electronic devices within the silicon substrate and at its surface, then builds insulating layers and metal wiring above them to connect the devices into circuits. The circuits are tested, separated into individual dies, assembled into packages, and tested as finished components.
+**Semiconductor device manufacturing** produces semiconductor devices and integrated circuits, such as processors, memory chips, and controllers. It starts with a silicon wafer, forms electronic devices within the silicon substrate and at its surface, then builds insulating layers and metal wiring above them to connect the devices into circuits. The circuits are tested, separated into individual dies, assembled into packages, and tested as finished components.
 
 Part I explains production of the wafer. Part II describes the physical structures and finished component that must be built. Part III explains how they are manufactured and tested. Part IV covers the manufacturing environment and industrial components that support the equipment.
 
@@ -246,7 +246,7 @@ Two complementary MOS transistor types are widely used:
 
 ![Three-dimensional view of a silicon MOS transistor](images/mos-transistor-three-dimensional.png)
 
-**Transistors Video:** [How do Transistors Work?](https://www.youtube.com/watch?v=B2482h_TNwg).
+**Transistors Video:** [How do Transistors Work?](https://www.youtube.com/watch?v=_Pqfjer8-O4).
 
 ### 2.3 Many Devices on One Wafer
 
@@ -289,13 +289,15 @@ The arrangement of these connections turns the devices into working circuits. In
 
 Complex integrated circuits can contain millions or billions of MOS transistors that must be connected according to the circuit design. Routing these connections within the limited area of a die requires multiple metal wiring levels. Insulating layers separate the levels, allowing conductive paths to cross above or below one another without unintended electrical contact.
 
-Insulating material separates the levels. **Vias** provide vertical electrical connections between selected conductors on different levels. Together, metal lines and vias form a three-dimensional interconnection network.
+**Vias** provide vertical electrical connections between selected conductors on different levels. Together, metal lines and vias form a three-dimensional interconnection network.
 
 For example, Intel’s 22 nm, 15-core “Ivytown” Xeon processor contained approximately **4.31 billion transistors and nine metal wiring levels within a single die**.
 
 The network reaches **connection pads**: conductive areas that provide suitable interfaces for external connections. Protective layers cover the completed circuit, with selected openings providing access to these pads.
 
 ![Die connection pads with bonding wires](images/die-connection-pads.png)
+
+*Die shown after wire bonding, with fine wires connecting its pads to package connection points.*
 
 ### 2.8 The Package
 
@@ -332,9 +334,9 @@ Fabrication can change the existing silicon's electrical properties, remove port
 Fabrication also adds and patterns material on exposed surfaces:
 
 - **Epitaxial growth:** adds crystalline semiconductor material that follows the orientation of the underlying crystal.
-- **Deposition:** adds semiconductor, insulating, or conductive films using methods such as CVD, PVD, and ALD.
+- **Deposition:** adds semiconductor, insulating, or conductive films using methods such as chemical vapor deposition (CVD), physical vapor deposition (PVD), and atomic layer deposition (ALD).
 - **Metal deposition and electroplating:** form conductive material for contacts, wiring, and other connections.
-- **Etching and CMP:** pattern added material or remove excess material to establish the required structures and surface condition.
+- **Etching and chemical mechanical planarization (CMP):** etching transfers patterns into material; CMP flattens surfaces and removes excess material.
 
 These methods are combined. Deposited material can also fill trenches or recesses etched into the substrate. Photolithography defines patterns for selective processing both within the silicon and in material above it; it does not itself introduce dopants or carve the silicon.
 
@@ -403,9 +405,9 @@ For example, fabs in the Phoenix metropolitan area include **TSMC’s Fab 21 in 
 
 **Circuit Fabrication Process — Front-End Manufacturing**
 
-Prepared wafer → Surface preparation and cleaning → Material growth or deposition → Photoresist coating and baking → Alignment and exposure → Development → Etching or ion implantation → Resist stripping and cleaning → Annealing and/or CMP where required → Inspection and metrology → Repeated processing to form devices, contacts, metal wiring levels, and vias → Protective layers and connection pads → Fabricated wafer
+Prepared wafer → Surface preparation and cleaning → Material growth or deposition where required → Photoresist coating and baking → Alignment and exposure → Development → Pattern transfer or selective processing, such as etching or ion implantation → Resist stripping and cleaning → Thermal processing and/or CMP where required → Inspection and metrology → Repeated processing to form devices, contacts, metal wiring levels, and vias → Protective layers and connection pads → Fabricated wafer
 
-Within these stages, operations are repeated according to the structure being built. This chain illustrates how the operations connect; individual process routes and the order of operations vary with the technology.
+Within these stages, operations are repeated according to the structure being built. This chain illustrates a patterned processing cycle rather than a recipe for every operation. Growth, deposition, diffusion, and thermal treatments can occur at other points in the route; not every operation requires a new resist pattern. Individual process routes and the order of operations vary with the technology.
 
 **Fab video — Manufacturing Process:** [TSMC Fab Tour](https://www.youtube.com/watch?v=divOKxuYklM).
 
@@ -521,30 +523,21 @@ These checks evaluate physical structures. Electrical testing, discussed in Chap
 
 ### 5.10 Device Formation
 
-The fabrication operations establish the structures described in Chapter 2. A simplified planar silicon MOS transistor illustrates how manufacturing works within the substrate and on its surface:
+The operations described above work together to form the electronic devices and isolation structures introduced in Chapter 2. Processing modifies selected regions within the silicon and forms additional structures on exposed surfaces.
 
-- **Body or well:** the starting substrate may provide the required body type. Where a well is needed, selected silicon regions receive dopants through implantation or diffusion, with appropriate thermal processing.
-- **Source and drain:** selected silicon regions are doped to establish the required electrical properties. In the basic implanted structure, these regions are modified silicon, rather than dopant-filled holes.
-- **Device isolation:** one common method, **shallow trench isolation (STI)**, etches trenches into silicon, fills them with insulating material, and removes excess material using CMP.
-- **Gate insulator:** thermal oxidation can grow silicon dioxide by consuming silicon at the surface. Other technologies deposit a dielectric on the semiconductor surface.
-- **Gate electrode:** conductive material is deposited and patterned above the gate insulator.
-- **Contacts and wiring:** insulating and conductive materials are added above the devices. Patterned etching creates openings, conductive material establishes connections, and CMP removes excess material where required.
+For example, **shallow trench isolation (STI)** combines several operations to electrically separate neighboring devices:
 
-Some device technologies also use selective epitaxial growth to form semiconductor regions on exposed crystal surfaces, including within previously etched recesses.
+Photolithography defines the pattern → Etching creates trenches in silicon → Deposition fills the trenches with insulating material → CMP removes excess fill and flattens the surface → Cleaning and inspection check the result
 
-These tasks use multiple operations. A transistor is not deposited as one complete layer. This list connects structures to methods; their order and the selected methods depend on the device technology.
+Doping and appropriate thermal processing establish the required electrical properties in selected semiconductor regions. Oxidation, deposition, epitaxial growth, and patterned etching form other parts of the device structure as required.
 
-For one patterned etch operation, an illustrative sequence is:
+Device formation therefore combines repeated operations rather than depositing a complete device in one step. The selected operations and their order depend on the device technology.
 
-Prepare and clean → Deposit the film → Coat and bake resist → Align and expose → Develop → Etch → Strip and clean → Inspect or measure
-
-For a masked implantation operation, implantation acts through the patterned openings instead of etching. Appropriate resist removal, cleaning, and annealing follow. Other operations are included where needed.
-
-**Equipment used:** deposition and oxidation tools, lithography systems, etchers, implanters, annealing systems, cleaning tools, and inspection and metrology tools.
+**Equipment used:** deposition and oxidation tools, epitaxial reactors where required, lithography systems, etchers, implanters, diffusion and annealing systems, CMP systems, cleaning tools, and inspection and metrology tools.
 
 ### 5.11 Contacts and Metal Interconnections
 
-After device formation, insulating material covers and separates structures. Photolithography defines openings, etching exposes selected device regions, and conductive material establishes contacts to the wiring network.
+After device formation, insulating material covers and separates structures. Photolithography defines the pattern for contact openings, etching removes insulation to expose selected device regions or electrodes, and conductive material fills the openings to establish contacts to the wiring network. Contacts and local interconnections belong to MOL; the subsequent metal wiring levels and vias belong to BEOL.
 
 One wiring method forms openings in insulation and fills them with metal. This is **damascene processing**:
 
@@ -749,13 +742,7 @@ Tools require reliable electrical power. Cooling removes heat and maintains spec
 
 ## 9. General Industrial Components Used in Semiconductor Equipment
 
-Semiconductor equipment combines specialized processing technology with familiar industrial components. They move mechanisms, control fluids, measure conditions, supply power, and coordinate operation.
-
-Manufacturers may offer general industrial versions and versions suited to semiconductor applications. Selection depends on location, cleanliness, chemical exposure, vacuum, temperature, and precision requirements.
-
 ### 9.1 Pneumatic Components
-
-Pneumatic components use compressed air for actuation, clamping, gripping, and equipment movement.
 
 - Cylinders and pneumatic actuators
 - Directional control valves
@@ -768,8 +755,6 @@ Pneumatic components use compressed air for actuation, clamping, gripping, and e
 - Pressure sensors and switches
 - Vacuum generators and suction cups
 
-Pneumatic air circuits operate mechanisms. Process-gas circuits supply manufacturing gases and require components selected for those gases and their purity requirements.
-
 ### 9.2 Motion and Mechanical Components
 
 - Motors and servo motors
@@ -781,8 +766,6 @@ Pneumatic air circuits operate mechanisms. Process-gas circuits supply manufactu
 - Brakes
 - Cable carriers
 
-Applications include wafer transfer, inspection stages, dispensing heads, and package handling. Required precision and cleanliness vary by application.
-
 ### 9.3 Clamping, Locating, and Gripping Components
 
 - Clamps and workholding devices
@@ -790,8 +773,6 @@ Applications include wafer transfer, inspection stages, dispensing heads, and pa
 - Grippers and chucks
 - Work supports
 - Tool changers and quick-connect mechanisms
-
-Holding an equipment fixture and handling a wafer directly impose different requirements.
 
 ### 9.4 Fluid-Control Components
 
@@ -804,8 +785,6 @@ Holding an equipment fixture and handling a wafer directly impose different requ
 - Seals and gaskets
 - Level sensors
 
-Components must suit cooling water, cleaning chemicals, slurry, or other fluids present.
-
 ### 9.5 Vacuum Components
 
 - Vacuum pumps
@@ -815,8 +794,6 @@ Components must suit cooling water, cleaning chemicals, slurry, or other fluids 
 - Flanges, seals, and fittings
 - Traps and filters
 
-Vacuum applications may require low **outgassing**, the release of gas from materials, as well as suitable lubricants, materials, and seals.
-
 ### 9.6 Sensors and Instrumentation
 
 - Pressure, temperature, and flow sensors
@@ -825,8 +802,6 @@ Vacuum applications may require low **outgassing**, the release of gas from mate
 - Level sensors
 - Cameras and machine vision
 - Identification readers
-
-Measurements provide feedback for regulation, fault detection, and operation checks.
 
 ### 9.7 Electrical Power and Automation Components
 
