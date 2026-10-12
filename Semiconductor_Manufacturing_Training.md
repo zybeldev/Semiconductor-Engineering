@@ -246,7 +246,7 @@ Two complementary MOS transistor types are widely used:
 
 ![Three-dimensional view of a silicon MOS transistor](images/mos-transistor-three-dimensional.png)
 
-**Video:** [How do Transistors Build into a CPU? 🖥️🤔 How do Transistors Work?](https://www.youtube.com/watch?v=_Pqfjer8-O4).
+**Transistors Video:** [How do Transistors Work?](https://www.youtube.com/watch?v=B2482h_TNwg).
 
 ### 2.3 Many Devices on One Wafer
 
@@ -426,7 +426,7 @@ The patterned resist guides operations such as etching and selective ion implant
 
 **Equipment used:** resist coating and developing tracks, bake hot plates, mask aligners, steppers, and scanners.
 
-**Video:** [How are Billions of Nanoscopic Transistors Made into a Microchip? — EUV Photolithography — ASML](https://www.youtube.com/watch?v=B2482h_TNwg).
+**ASML Lithography Video:** [EUV Photolithography — ASML](https://www.youtube.com/watch?v=B2482h_TNwg).
 
 ### 5.4 Etching — Remove Material
 
