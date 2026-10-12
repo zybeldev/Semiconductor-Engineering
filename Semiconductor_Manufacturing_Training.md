@@ -218,13 +218,11 @@ A **MOSFET** is a **metal–oxide–semiconductor field-effect transistor**. It 
 
 A simplified planar silicon MOS transistor provides a useful example of the structures manufacturing must create.
 
-| Structure | Function |
-|---|---|
-| **Body (B)** | Semiconductor region in which the transistor is formed. It may be the silicon substrate or a well—a region within it whose doping type and concentration have been modified. |
-| **Source (S) and drain (D)** | Doped semiconductor regions at the ends of the controlled conducting path. |
-| **Gate insulator** | Thin dielectric—an electrically insulating material—separating the gate from the semiconductor. |
-| **Gate (G)** | Conductive electrode that controls the channel through an electric field. |
-| **Channel** | Region between source and drain whose conductivity is controlled by the gate. |
+- **Body (B)**: Semiconductor region in which the transistor is formed. It may be the silicon substrate or a well—a region within it whose doping type and concentration have been modified.
+- **Source (S) and drain (D)**: Doped semiconductor regions at the ends of the controlled conducting path.
+- **Gate insulator**: Thin dielectric—an electrically insulating material—separating the gate from the semiconductor.
+- **Gate (G)**: Conductive electrode that controls the channel through an electric field.
+- **Channel**: Region between source and drain whose conductivity is controlled by the gate.
 
 ![Silicon MOS transistor structure](images/mos-transistor-structure.png)
 
@@ -242,10 +240,8 @@ A **hole** is an unoccupied electron state in the semiconductor that behaves as 
 
 Two complementary MOS transistor types are widely used:
 
-| Type | Simplified structure | Principal channel carriers |
-|---|---|---|
-| **NMOS** | n-type source and drain in a p-type body region | Electrons |
-| **PMOS** | p-type source and drain in an n-type body region | Holes |
+- **NMOS**: n-type source and drain in a p-type body region. Principal channel carriers: Electrons.
+- **PMOS**: p-type source and drain in an n-type body region. Principal channel carriers: Holes.
 
 **CMOS**, or **complementary MOS**, uses NMOS and PMOS transistors together. Appropriately doped wells allow both types to be formed on the same wafer.
 
@@ -275,10 +271,8 @@ The wafer allows many dies to undergo manufacturing operations together. Each di
 
 The complexity of a die comes from the number and arrangement of devices, the connections between them, and the physical requirements for manufacturing that arrangement.
 
-| Term | Meaning |
-|---|---|
-| **Wafer** | Semiconductor disc used as the substrate for manufacturing devices and circuits |
-| **Die** | Individual circuit area on the wafer, or the chip separated from it |
+- **Wafer**: Semiconductor disc used as the substrate for manufacturing devices and circuits
+- **Die**: Individual circuit area on the wafer, or the chip separated from it
 
 ### 2.6 Contacts and Metal Wiring
 
@@ -338,13 +332,11 @@ Chapter 2 describes what must be built. This chapter explains how manufacturing 
 
 Prepared wafer → Circuit fabrication → Wafer testing → Dicing → Assembly and packaging → Final testing
 
-| Stage | Purpose |
-|---|---|
-| **Circuit fabrication** | Construct the devices and interconnections described in Chapter 2 |
-| **Wafer testing** | Evaluate circuits before separation |
-| **Dicing** | Separate individual dies |
-| **Assembly and packaging** | Assemble selected dies into components with external connections |
-| **Final testing** | Evaluate finished components against specifications |
+- **Circuit fabrication**: Construct the devices and interconnections described in Chapter 2
+- **Wafer testing**: Evaluate circuits before separation
+- **Dicing**: Separate individual dies
+- **Assembly and packaging**: Assemble selected dies into components with external connections
+- **Final testing**: Evaluate finished components against specifications
 
 This is the typical sequence. Some packaging technologies perform operations before dicing or combine stages differently.
 
@@ -360,11 +352,9 @@ Manufacturing follows a coordinated route through processing and measurement equ
 
 ### 4.3 FEOL, MOL, and BEOL
 
-| Stage | Meaning | Main role |
-|---|---|---|
-| **FEOL — Front End of Line** | Device formation | Form electronic devices and their isolation |
-| **MOL — Middle of Line** | Device-to-wiring connections | Form contacts and local interconnections |
-| **BEOL — Back End of Line** | Wiring construction | Form metal wiring levels and vias |
+- **FEOL — Front End of Line**: Device formation — Form electronic devices and their isolation
+- **MOL — Middle of Line**: Device-to-wiring connections — Form contacts and local interconnections
+- **BEOL — Back End of Line**: Wiring construction — Form metal wiring levels and vias
 
 The precise boundaries vary with the technology. Processing operations recur within these stages as needed.
 
