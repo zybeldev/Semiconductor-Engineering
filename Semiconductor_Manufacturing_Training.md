@@ -426,10 +426,6 @@ The patterned resist guides operations such as etching and selective ion implant
 
 **Equipment used:** resist coating and developing tracks, bake hot plates, mask aligners, steppers, and scanners.
 
-Reference: [ASML — Six Crucial Steps in Semiconductor Manufacturing](https://www.asml.com/en/company/stories/2021/semiconductor-manufacturing-process-steps).
-
-**Video:** [Photolithography — Duke University — SMIF](https://www.youtube.com/watch?v=udXHWVejDj0).
-
 **Video:** [How are Billions of Nanoscopic Transistors Made into a Microchip? — EUV Photolithography — ASML](https://www.youtube.com/watch?v=B2482h_TNwg).
 
 ### 5.4 Etching — Remove Material
