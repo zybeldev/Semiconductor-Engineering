@@ -180,10 +180,6 @@ Qualified wafers are packaged for protected transport. The output is a **prepare
 
 **Equipment used:** dimensional and surface metrology systems, defect inspection tools, electrical measurement instruments, and clean packaging systems.
 
-**Equipment example:** [KLA Surfscan SP7XP](https://www.spts.com/products/wafer-manufacturing/wafer-defect-inspection-review)—an automated inspection system that detects defects and surface-quality issues on unpatterned wafers.
-
-References: [SUMCO — Silicon Wafer Production Processes](https://www.sumcosi.com/english/products/process/) and [Siltronic — Epitaxial Wafers](https://www.siltronic.com/en/products/epitaxial-wafers.html).
-
 ### 1.6 Other Semiconductor Wafer Materials
 
 Silicon is the main material covered in this chapter, but other semiconductor materials are used or developed for demanding applications. Material selection can address high operating temperatures, high voltages, and heat removal, as well as other electrical requirements.
@@ -195,8 +191,6 @@ Silicon is the main material covered in this chapter, but other semiconductor ma
 Using diamond as the semiconductor material is different from using it as a heat spreader beneath a device made from another semiconductor. A **heat spreader** transfers heat away from the device without necessarily forming part of its active electronic structure.
 
 Different wafer materials require their own crystal-growth, finishing, and device-processing methods. The silicon manufacturing sequence described above should not be assumed to apply unchanged to them.
-
-References: [Wolfspeed — Silicon Carbide Applications](https://www.wolfspeed.com/applications/) and [AIST — Diamond Wafer Research](https://unit.aist.go.jp/adperc/en/groups/dwt.html).
 
 **Wafer manufacturing video:** [Watch on YouTube](https://www.youtube.com/watch?v=jnnXZa_hWq4).
 
@@ -302,8 +296,6 @@ Insulating material separates the levels. **Vias** provide vertical electrical c
 
 For example, Intel’s 22 nm, 15-core “Ivytown” Xeon processor contained approximately **4.31 billion transistors and nine metal wiring levels within a single die**.
 
-Reference: [Ivytown: A 22 nm 15-core enterprise Xeon processor family — research paper](https://www.researchgate.net/publication/271550672_54_Ivytown_A_22nm_15-core_enterprise_XeonR_processor_family).
-
 The network reaches **connection pads**: conductive areas that provide suitable interfaces for external connections. Protective layers cover the completed circuit, with selected openings providing access to these pads.
 
 ### 2.8 The Package
@@ -389,7 +381,7 @@ Circuit fabrication is carried out in **semiconductor fabrication plants, common
 
 For example, fabs in the Phoenix metropolitan area include **TSMC’s Fab 21 in north Phoenix, Intel’s Ocotillo campus in Chandler, and NXP’s Chandler Fab**. These facilities fabricate semiconductor devices and circuits on wafers.
 
-References: [TSMC Arizona](https://www.tsmc.com/static/abouttsmcaz/index.htm), [Intel Fab 52](https://www.intel.com/content/www/us/en/newsroom/news/client-computing/intel-unveils-panther-lake-architecture-first-ai-pc-platform-built-on-18a.html), and [NXP Chandler Fab](https://www.nxp.com/company/about-nxp/smarter-world-blog/BL-30-YEARS-CHANDLER-FAB).
+**Fab video:** [Intel Arizona factory tour](https://www.youtube.com/watch?v=IUIh0fOUcrQ).
 
 ### 5.1 Circuit Fabrication Sequence
 
@@ -706,8 +698,6 @@ High-purity nitrogen (N₂) is used mainly inside equipment, piping, and enclose
 - **Purge systems:** displace air, moisture, and residual process gases.
 - **Maintain a protective atmosphere:** limit exposure to oxygen and moisture.
 
-Reference: [Air Liquide — Inerting, Blanketing and Purging](https://sg.airliquide.com/gas-applications/inerting-blanketing-and-purging).
-
 ### 8.6 Vacuum, Exhaust, and Waste Treatment
 
 Vacuum systems establish the required chamber pressure. Exhaust collects gases and vapors. **Gas abatement** removes or transforms selected exhaust constituents before discharge. Liquid waste streams require suitable collection and treatment.
@@ -719,11 +709,6 @@ Vacuum systems establish the required chamber pressure. Exhaust collects gases a
 Tools require reliable electrical power. Cooling removes heat and maintains specified equipment temperatures. Distribution and monitoring systems support these operating requirements.
 
 **Equipment used:** electrical distribution, backup power where required, chillers, cooling-water systems, heat exchangers, and facility monitoring systems.
-
-**Fab overview videos**
-
-- [Micron Taiwan factory tour](https://www.youtube.com/watch?v=WKHKy89QaV0)
-- [Intel Arizona factory tour](https://www.youtube.com/watch?v=IUIh0fOUcrQ)
 
 ## 9. General Industrial Components Used in Semiconductor Equipment
 
