@@ -374,6 +374,8 @@ For example, fabs in the Phoenix metropolitan area include **TSMC’s Fab 21 in 
 
 **Fab video:** [Intel Arizona factory tour](https://www.youtube.com/watch?v=IUIh0fOUcrQ).
 
+**Fab video:** [TSMC Fab Tour](https://www.youtube.com/watch?v=divOKxuYklM).
+
 ### 5.1 Circuit Fabrication Sequence
 
 **Circuit Fabrication Process — Front-End Manufacturing**
