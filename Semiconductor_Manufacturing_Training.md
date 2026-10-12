@@ -301,6 +301,8 @@ A **package** supports and protects one or more dies, provides electrical connec
 
 Connections between the die and package may use fine wires or conductive bumps. External terminals then connect the packaged component to the surrounding electronic system.
 
+![Die connection pads with bonding wires](images/die-connection-pads.png)
+
 The finished component therefore includes both the fabricated die and the assembly that makes it usable in a system.
 
 ---
