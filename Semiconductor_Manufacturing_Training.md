@@ -273,6 +273,8 @@ The complexity of a die comes from the number and arrangement of devices, the co
 - **Wafer**: Semiconductor disc used as the substrate for manufacturing devices and circuits
 - **Die**: Individual circuit area on the wafer, or the chip separated from it
 
+**Video:** [How do Transistors Build into a CPU? 🖥️🤔 How do Transistors Work?](https://www.youtube.com/watch?v=_Pqfjer8-O4).
+
 ### 2.6 Contacts and Metal Wiring
 
 Devices must connect to other circuit elements. For a MOS transistor, this includes its source, drain, and gate; the body also has an appropriate electrical connection in the conventional planar example.
