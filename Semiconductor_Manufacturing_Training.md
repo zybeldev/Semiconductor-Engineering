@@ -563,6 +563,10 @@ Facilities use different combinations of automated transport and manual carrier 
 
 **Equipment used:** overhead transport systems, automated vehicles, carrier stockers, and transport controls.
 
+![Clean Room Material Handling System Picking Up a FOUP](images/cleanroom-foup-handling.png)
+
+*Clean Room Material Handling System Picking Up a FOUP.*
+
 ### 6.4 Wafer Tracking and Processing History
 
 A **lot** is a group of wafers managed together. Tracking records identity, location, route, completed operations, measurements, and holds. Individual wafer tracking may also be used.
