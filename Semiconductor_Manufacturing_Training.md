@@ -295,7 +295,7 @@ For example, Intel’s 22 nm, 15-core “Ivytown” Xeon processor contained app
 
 The network reaches **connection pads**: conductive areas that provide suitable interfaces for external connections. Protective layers cover the completed circuit, with selected openings providing access to these pads.
 
-![Die connection pads with bonding wires](images/die-connection-pads.png)
+![Die connection pads with bonding wires](https://raw.githubusercontent.com/zybeldev/Semiconductor-Engineering/main/images/die-connection-pads.png)
 
 *Die shown after wire bonding, with fine wires connecting its pads to package connection points.*
 
