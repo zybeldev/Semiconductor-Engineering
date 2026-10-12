@@ -133,6 +133,10 @@ A widely used method is the **Czochralski process**:
 3. The seed is slowly withdrawn while the crystal and crucible rotate under controlled conditions.
 4. Silicon solidifies onto the seed, forming a cylindrical single-crystal **ingot**.
 
+![Czochralski silicon ingot growth](images/silicon-ingot-growth.png)
+
+![Single-crystal silicon ingot](images/silicon-ingot.png)
+
 **Crystal orientation** describes the alignment of the silicon crystal lattice. It influences electrical behavior and how the silicon responds to manufacturing processes. The seed establishes this orientation. Temperature, pulling speed, and rotation influence growth and ingot dimensions.
 
 Controlled quantities of dopants may be added to establish the silicon's conductivity type and **resistivity**. Resistivity describes a material's opposition to electrical conduction; it is the reciprocal of conductivity.
