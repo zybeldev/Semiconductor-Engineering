@@ -1,3 +1,5 @@
+![Zybel International, Inc.](images/zybel-international.png)
+
 # Semiconductor Manufacturing — Technical Guide
 
 ## Introduction
