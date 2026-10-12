@@ -232,7 +232,7 @@ A simplified planar silicon MOS transistor provides a useful example of the stru
 | **Gate (G)** | Conductive electrode that controls the channel through an electric field. |
 | **Channel** | Region between source and drain whose conductivity is controlled by the gate. |
 
-*Picture placeholder 1 — Silicon MOS transistor structure.*
+![Silicon MOS transistor structure](images/mos-transistor-structure.png)
 
 #### The Transistor as an Electronic Switch
 
@@ -240,7 +240,7 @@ Applying a voltage to the gate creates an **electric field through the gate insu
 
 In the simplified planar structure, the conducting channel occupies a very thin region near the silicon surface beneath the gate. The insulator electrically separates the gate from the semiconductor, while the electric field controls the conducting path.
 
-*Picture placeholder 2 — Gate control of the conducting channel.*
+![Gate electric field in a silicon MOS transistor](images/mos-transistor-electric-field.png)
 
 #### NMOS and PMOS
 
@@ -255,7 +255,7 @@ Two complementary MOS transistor types are widely used:
 
 **CMOS**, or **complementary MOS**, uses NMOS and PMOS transistors together. Appropriately doped wells allow both types to be formed on the same wafer.
 
-*Picture placeholder 3 — Additional transistor illustration.*
+![Three-dimensional view of a silicon MOS transistor](images/mos-transistor-three-dimensional.png)
 
 ### 2.3 Many Devices on One Wafer
 
