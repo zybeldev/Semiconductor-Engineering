@@ -315,6 +315,27 @@ Device fabrication begins with the prepared wafer produced in Part I. Its materi
 
 The wafer provides both the semiconductor material in which selected device regions are formed and the surface on which additional structures are built. Some products use an epitaxial layer as the starting device region.
 
+#### Manufacturing Within the Silicon Substrate
+
+Fabrication can change the existing silicon's electrical properties, remove portions of it, or convert silicon near its surface into insulating material:
+
+- **Ion implantation:** introduces dopant ions into the silicon to establish selected electrical properties, such as p-type or n-type regions.
+- **Dopant diffusion:** uses heat to move dopant atoms into and through the silicon.
+- **Silicon etching:** removes silicon to form features such as trenches and recesses.
+- **Thermal oxidation:** converts silicon at the silicon–oxide interface into silicon dioxide, consuming some of the substrate as the oxide grows.
+- **Annealing:** applies controlled heat to repair implantation damage and activate dopants; it can also redistribute dopants.
+
+#### Manufacturing on the Surface and Above the Devices
+
+Fabrication also adds and patterns material on exposed surfaces:
+
+- **Epitaxial growth:** adds crystalline semiconductor material that follows the orientation of the underlying crystal.
+- **Deposition:** adds semiconductor, insulating, or conductive films using methods such as CVD, PVD, and ALD.
+- **Metal deposition and electroplating:** form conductive material for contacts, wiring, and other connections.
+- **Etching and CMP:** pattern added material or remove excess material to establish the required structures and surface condition.
+
+These methods are combined. Deposited material can also fill trenches or recesses etched into the substrate. Photolithography defines patterns for selective processing both within the silicon and in material above it; it does not itself introduce dopants or carve the silicon.
+
 ### 3.2 Surface Condition and Preparation
 
 Processing requires surfaces with suitable cleanliness and condition. Particles, residues, and unwanted surface films can interfere with later operations.
@@ -388,7 +409,7 @@ Within these stages, operations are repeated according to the structure being bu
 
 ### 5.2 Oxidation and Deposition — Add Material
 
-**Oxidation** forms an oxide by reacting a material with oxygen. Thermal oxidation grows silicon dioxide by exposing silicon to oxygen or water vapor at controlled temperatures. Some silicon is consumed as the oxide grows.
+**Oxidation** forms an oxide by reacting a material with oxygen. Thermal oxidation grows silicon dioxide by exposing silicon to oxygen or water vapor at controlled temperatures. The reaction occurs at the silicon–oxide interface: some silicon is consumed, and the resulting oxide occupies space both below and above the original silicon surface. Thermal oxidation therefore modifies the substrate as well as forming an insulating surface layer.
 
 **Deposition** adds material to an existing surface as a thin layer, or **film**. Films may be semiconductors, insulators, conductors, or temporary processing materials.
 
@@ -432,7 +453,9 @@ The patterned resist guides operations such as etching and selective ion implant
 
 ### 5.4 Etching — Remove Material
 
-**Etching** removes material from selected areas. It can remove semiconductors, insulators, and conductors, forming device features or openings for contacts and vias.
+**Etching** removes material from exposed areas. It can remove the silicon substrate itself as well as semiconductor films, insulators, and conductors added above it.
+
+For example, etching can create trenches in silicon that are subsequently filled with insulating material to separate neighboring devices. It can also shape deposited films or create openings through insulating layers for contacts and vias. The material removed depends on the exposed structure and the selected etching chemistry.
 
 Photolithography defines a patterned mask that protects material that should remain and exposes material to be removed. The mask may be resist or a more durable **hard mask** into which the resist pattern has been transferred.
 
@@ -446,11 +469,15 @@ Reference: [Lam Research — Etch Essentials](https://newsroom.lamresearch.com/e
 
 ### 5.5 Doping — Modify Electrical Properties
 
-**Doping** introduces selected elements to change semiconductor electrical properties. **Ion implantation is a method of doping**: it accelerates dopant ions into the semiconductor rather than forming a coating on its surface.
+**Doping** introduces selected elements to change semiconductor electrical properties. It can establish p-type or n-type regions and control their dopant concentration. Methods include:
 
-For selective implantation, a mask defined by photolithography exposes regions to receive dopants and protects other regions. Implant dose and energy help control the amount and depth of implanted ions.
+- **Ion implantation:** accelerates dopant ions into the semiconductor. The ions enter the existing material; implantation does not excavate a cavity and fill it with dopant, or form a surface coating. Implant dose and energy help control the amount and depth of implanted ions.
+- **Dopant diffusion:** uses elevated temperature to move dopant atoms into silicon from a source at its surface, or to redistribute dopants already within it. Time and temperature influence how far they move.
+- **Doping during growth:** introduces dopants as a crystal or epitaxial semiconductor region grows. This establishes the electrical properties of the newly grown material.
 
-Dopants can also be introduced by diffusion or during crystal and epitaxial growth.
+For selective implantation, a mask defined by photolithography exposes regions to receive dopants and protects other regions. Selective diffusion can use openings patterned in a suitable diffusion-resistant mask, such as silicon dioxide. Mask material and thickness must suit the process.
+
+Within the substrate, these methods can establish the wells and source and drain regions required by the device design. Doping can also modify semiconductor material added on the substrate.
 
 **Equipment used:** ion implanters, diffusion furnaces, and growth reactors capable of introducing dopants.
 
@@ -492,9 +519,18 @@ These checks evaluate physical structures. Electrical testing, discussed in Chap
 
 ### 5.10 Device Formation
 
-The fabrication operations establish the structures described in Chapter 2. In a simplified MOS example, neighboring devices require isolation, semiconductor regions require specified doping, and the gate insulator and gate structure must be formed.
+The fabrication operations establish the structures described in Chapter 2. A simplified planar silicon MOS transistor illustrates how manufacturing works within the substrate and on its surface:
 
-These tasks use multiple operations. A transistor is not deposited as one complete layer. Their order depends on the device technology.
+- **Body or well:** the starting substrate may provide the required body type. Where a well is needed, selected silicon regions receive dopants through implantation or diffusion, with appropriate thermal processing.
+- **Source and drain:** selected silicon regions are doped to establish the required electrical properties. In the basic implanted structure, these regions are modified silicon, rather than dopant-filled holes.
+- **Device isolation:** one common method, **shallow trench isolation (STI)**, etches trenches into silicon, fills them with insulating material, and removes excess material using CMP.
+- **Gate insulator:** thermal oxidation can grow silicon dioxide by consuming silicon at the surface. Other technologies deposit a dielectric on the semiconductor surface.
+- **Gate electrode:** conductive material is deposited and patterned above the gate insulator.
+- **Contacts and wiring:** insulating and conductive materials are added above the devices. Patterned etching creates openings, conductive material establishes connections, and CMP removes excess material where required.
+
+Some device technologies also use selective epitaxial growth to form semiconductor regions on exposed crystal surfaces, including within previously etched recesses.
+
+These tasks use multiple operations. A transistor is not deposited as one complete layer. This list connects structures to methods; their order and the selected methods depend on the device technology.
 
 For one patterned etch operation, an illustrative sequence is:
 
