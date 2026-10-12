@@ -93,7 +93,6 @@ Part I explains production of the wafer. Part II describes the physical structur
    - 9.6 Sensors and Instrumentation
    - 9.7 Electrical Power and Automation Components
    - 9.8 Heating and Cooling Components
-   - 9.9 Selecting Components for the Application
 
 ---
 
@@ -802,13 +801,3 @@ Measurements provide feedback for regulation, fault detection, and operation che
 - Cooling pumps and valves
 - Fans and blowers
 - Thermal insulation
-
-### 9.9 Selecting Components for the Application
-
-Selection considers function, installation location, accuracy, speed, load, pressure, temperature, chemical compatibility, particle generation, vacuum compatibility, materials, seals, lubrication, interfaces, and maintenance.
-
-A valve controlling a pneumatic actuator and one delivering a high-purity process gas belong to related component categories but have different requirements.
-
-These categories connect Zybel's existing industrial product knowledge to semiconductor equipment. Specific manufacturers and product families can be evaluated separately.
-
----
