@@ -424,6 +424,8 @@ The patterned resist guides operations such as etching and selective ion implant
 
 Reference: [ASML — Six Crucial Steps in Semiconductor Manufacturing](https://www.asml.com/en/company/stories/2021/semiconductor-manufacturing-process-steps).
 
+**Video:** [Photolithography — Duke University — SMIF](https://www.youtube.com/watch?v=udXHWVejDj0).
+
 ### 5.4 Etching — Remove Material
 
 **Etching** removes material from selected areas. It can remove semiconductors, insulators, and conductors, forming device features or openings for contacts and vias.
