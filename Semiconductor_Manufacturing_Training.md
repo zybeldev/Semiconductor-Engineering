@@ -295,13 +295,13 @@ For example, Intel’s 22 nm, 15-core “Ivytown” Xeon processor contained app
 
 The network reaches **connection pads**: conductive areas that provide suitable interfaces for external connections. Protective layers cover the completed circuit, with selected openings providing access to these pads.
 
+![Die connection pads with bonding wires](images/die-connection-pads.png)
+
 ### 2.8 The Package
 
 A **package** supports and protects one or more dies, provides electrical connections to other electronics, and helps manage heat.
 
 Connections between the die and package may use fine wires or conductive bumps. External terminals then connect the packaged component to the surrounding electronic system.
-
-![Die connection pads with bonding wires](images/die-connection-pads.png)
 
 The finished component therefore includes both the fabricated die and the assembly that makes it usable in a system.
 
