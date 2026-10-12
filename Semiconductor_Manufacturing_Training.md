@@ -246,6 +246,8 @@ Two complementary MOS transistor types are widely used:
 
 ![Three-dimensional view of a silicon MOS transistor](images/mos-transistor-three-dimensional.png)
 
+**Video:** [How do Transistors Build into a CPU? 🖥️🤔 How do Transistors Work?](https://www.youtube.com/watch?v=_Pqfjer8-O4).
+
 ### 2.3 Many Devices on One Wafer
 
 Manufacturing forms large numbers of MOS transistors and other electronic devices in and on the wafer. Their positions and dimensions follow the circuit design.
@@ -272,8 +274,6 @@ The complexity of a die comes from the number and arrangement of devices, the co
 
 - **Wafer**: Semiconductor disc used as the substrate for manufacturing devices and circuits
 - **Die**: Individual circuit area on the wafer, or the chip separated from it
-
-**Video:** [How do Transistors Build into a CPU? 🖥️🤔 How do Transistors Work?](https://www.youtube.com/watch?v=_Pqfjer8-O4).
 
 ### 2.6 Contacts and Metal Wiring
 
